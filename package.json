@@ -1,0 +1,19 @@
+{
+  "name": "electronjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^22.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "electron-window-state": "^5.0.3"
+  }
+}

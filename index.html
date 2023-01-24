@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <a href="child.html" target="_blank">go to child </a>
+    <br>
+    <!-- <button onclick="zoomIn()">Zoom In</button>
+    <button onclick="zoomOut()">Zoom Out</button> -->
+    <script src="main.js">
+      const {webFrame} = require('electron')
+      // function zoomIn(){
+      //   webFrame.setZoomFactor(webFrame.getZoomFactor()+1)
+      // }
+      // function zoomOut(){
+      //   webFrame.setZoomFactor(webFrame.getZoomFactor()-1)
+      // }
+    </script>
+  </body>
+</html>
