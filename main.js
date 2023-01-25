@@ -25,7 +25,12 @@ const createWindow = () => {
   });
 
   //context menu(on right click)
-  win.loadFile("index.html");
+  // win.loadFile("index.html");
+
+  //for running the react code with electron window
+  //development URL
+  win.loadURL("http://localhost:3000")
+
    win.webContents.on('context-menu', ()=>{
     contextMenu.popup();
    })
